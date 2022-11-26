@@ -3,10 +3,13 @@
     text-align: right;
     
 }
+
 .titulo {
     text-align: center;
     color: aqua;
     background-color: blueviolet;
     border-radius: 1.5px;
+    padding: 0.1px;
     box-shadow: rgb(0 0 0 / 14%) 0px 6px 10px;
 }
+
