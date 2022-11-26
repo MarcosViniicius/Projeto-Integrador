@@ -1,2 +1,2 @@
 # Proj integrador
-<a href="Principal/index.html">Ir para página principal</a>
+<a href="/Projeto-integrador/HTML/index.html">Ir para página principal</a>
