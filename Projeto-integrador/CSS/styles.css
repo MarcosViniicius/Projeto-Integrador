@@ -118,3 +118,26 @@ body {
 .arrow-left:hover, .arrow-right:hover {
   opacity: 1;
 }
+
+.item {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: all 600ms ease-in-out;
+}
+
+.current-item {
+  opacity: 1;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
