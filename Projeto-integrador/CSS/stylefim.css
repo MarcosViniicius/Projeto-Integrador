@@ -1,0 +1,78 @@
+body {
+    background-color: #764652;
+    margin: 0px;
+  }
+  
+  .fim {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 252, 252);
+    background-color: #5a8884;
+    border-radius: 1.5px;
+    box-shadow: rgb(0 0 0 / 14%) 0px 6px 10px;
+    margin: 50% auto;
+
+  }
+  
+  .fim {
+      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  
+   @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+  
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    
+  
+  .botaoavancar {
+      border-radius: 2px;
+      position: absolute;
+      bottom: 10px;
+      padding-left: 10px;
+      right: 0; 
+      padding: 30px;
+      
+  }
+  .botaovoltar {
+      border-radius: 2px;
+      position: absolute;
+      bottom: 10px;
+      padding-left: 10px;
+      left: 0;
+      padding: 30px;
+      
+  }
+  
+  .botao {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 20px;
+      background-color: #aed1bd;
+      border-radius: 2px;
+      border: none;
+      height: 40px;
+      width: 100px;
+      
+  }
+  
+  .botao {-webkit-animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both;animation:shadow-pop-tr .3s cubic-bezier(.47,0.000,.745,.715) both}
+  @-webkit-keyframes shadow-pop-tr{0%{-webkit-box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(8px);transform:translateX(-8px) translateY(8px)}}@keyframes shadow-pop-tr{0%{-webkit-box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;box-shadow:0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e,0 0 #3e3e3e;-webkit-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0)}100%{-webkit-box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;box-shadow:1px -1px #3e3e3e,2px -2px #3e3e3e,3px -3px #3e3e3e,4px -4px #3e3e3e,5px -5px #3e3e3e,6px -6px #3e3e3e,7px -7px #3e3e3e,8px -8px #3e3e3e;-webkit-transform:translateX(-8px) translateY(8px);transform:translateX(-8px) translateY(8px)}}
+  
