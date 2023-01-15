@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+
+* {
+  /* Configurações padrões da página. */
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  /* Topo da página. */
+  background-color: #269199;
+  box-shadow: 0px 3px 10px #269199;
+}
+
+.nav-bar {
+  /* Barra de navegação que fica no topo da página. */
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo {
+  /* Logo da página. */
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  /* Texto da logo. */
+  color: #fff;
+}
+
+.nav-list {
+  /* Menu de navegação. */
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  /* Lista de navegação da página. */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  /* Itens da lista de navegação. */
+  margin: 0 15px;
+}
+
+.nav-link {
+  /* Itens da lista de navegação. */
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fff;
+  font-weight: 400;
+  transition: 1s;
+  opacity: 80%;
+}
+
+.nav-link:hover {
+  /* :hover é a propriedade que diz se o mouse passou em cima do de algum item. */
+  transition: 1s;
+  opacity: 100%;
+  color: rgb(17, 0, 255);
+}
+
+.mobile-menu-icon {
+  /* ícone do menu. */
+  display: none;
+}
+
+.mobile-menu {
+  /* Faz menu de celular ficar invisível na página */
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  /* Caso o usuário esteja pelo celular, o menu é adaptado para menu hamburguer. */
+
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    transition: 1s;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+    transition: 1s;
+  }
+
+  .open {
+    display: block;
+  }
+}
+
+.main-text {
+  /* Texto principal da página. */
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.main-img {
+  /* Imagem principal da página. */
+  width: 50%;
+}
+
+#back-to-top {
+  /* ícone que faz voltar para o início da página */
+  transition: 1s;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  opacity: 60%;
+  background-color: #58afb8;
+  border: #58afb8;
+}
+#back-to-top:hover {
+  /* :hover é a propriedade que diz se o mouse passou em cima do de algum item. */
+  opacity: 100%;
+  transition: 1s;
+  background-color: #58afb8;
+  cursor: pointer;
+}
+#credits {
+  /* Configura os cr[éditos da p[ágina */
+  position: relative;
+  text-align: center;
+}

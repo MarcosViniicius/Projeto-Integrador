@@ -1,0 +1,22 @@
+function menuShow() {
+  let menuMobile = document.querySelector(".mobile-menu");
+  if (menuMobile.classList.contains("open")) {
+    menuMobile.classList.remove("open");
+    document.querySelector(".icon").src = "images/menu/menu_white_36dp.svg";
+  } else {
+    menuMobile.classList.add("open");
+    document.querySelector(".icon").src = "images/menu/close_white_36dp.svg";
+  }
+}
+
+var btn = document.querySelector("#back-to-top");
+
+btn.addEventListener("click", function () {
+  window.scrollTo(0, 0);
+});
+
+var btn = $("#back-to-top");
+
+btn.click(function () {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+});
