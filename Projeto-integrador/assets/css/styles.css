@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+body {
+  background-color: #269199;
+}
+
 p {
   font-family: "Source Serif Pro", serif;
   text-align: left;
@@ -25,9 +29,6 @@ header {
   /* Topo da página. */
   background-color: #084a4f;
   box-shadow: 0px 3px 10px #04585e;
-}
-body {
-  background-color: #269199;
 }
 
 .nav-bar {
