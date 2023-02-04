@@ -1,17 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Source+Serif+Pro&display=swap");
+
+@font-face {
+  font-family: "DINNextW1Gk";
+  src: url("../fonts/665-font.otf");
+}
 * {
   /* Configurações padrões da página. */
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+  text-align: center;
 }
 
+p {
+  font-family: "Source Serif Pro", serif;
+  text-align: left;
+  color: white;
+  padding: 20px;
+}
 header {
   /* Topo da página. */
+  background-color: #084a4f;
+  box-shadow: 0px 3px 10px #04585e;
+}
+body {
   background-color: #269199;
-  box-shadow: 0px 3px 10px #269199;
 }
 
 .nav-bar {
@@ -119,9 +135,7 @@ header {
 
 .main-text {
   /* Texto principal da página. */
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  text-align: center;
 }
 
 .main-img {
