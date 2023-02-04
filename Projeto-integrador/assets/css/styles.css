@@ -100,10 +100,6 @@ header {
   display: none;
 }
 
-#endo1 {
-  padding: 40px;
-}
-
 @media screen and (max-width: 730px) {
   /* Caso o usuário esteja pelo celular, o menu é adaptado para menu hamburguer. */
 
