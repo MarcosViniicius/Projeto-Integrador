@@ -16,18 +16,23 @@
 }
 
 body {
-  background-color: #269199;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 169, 179, 1) 31%,
+    rgba(47, 169, 179, 1) 46%,
+    rgba(6, 132, 152, 1) 78%
+  );
 }
 
 p {
   font-family: "Source Serif Pro", serif;
-  text-align: left;
   color: #fff;
   padding: 20px;
+  text-align: left;
 }
 header {
   /* Topo da página. */
-  background-color: #084a4f;
+  background: (rgba(12, 155, 157, 1) 100%);
   box-shadow: 0px 3px 10px #04585e;
 }
 
@@ -75,6 +80,7 @@ header {
   font-weight: 400;
   transition: 1s;
   opacity: 80%;
+  font-family: "Source Serif Pro", serif;
 }
 
 .nav-link:hover {
@@ -92,6 +98,10 @@ header {
 .mobile-menu {
   /* Faz menu de celular ficar invisível na página */
   display: none;
+}
+
+#endo1 {
+  padding: 40px;
 }
 
 @media screen and (max-width: 730px) {
