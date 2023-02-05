@@ -15,6 +15,9 @@
   text-align: center;
 }
 
+button {
+  outline: 0;
+}
 body {
   background: linear-gradient(
     90deg,
@@ -41,6 +44,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
+  transition: 1s;
 }
 
 .logo {
@@ -110,6 +114,9 @@ header {
   .nav-item {
     display: none;
   }
+  .mobile-menu {
+    overflow: hidden;
+  }
 
   .mobile-menu-icon {
     display: block;
@@ -119,6 +126,7 @@ header {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: 1s;
   }
 
   .mobile-menu ul {
@@ -172,6 +180,4 @@ header {
   /* Configura os cr[éditos da p[ágina */
   position: relative;
   text-align: center;
-}
-#imgendo1 {
 }
