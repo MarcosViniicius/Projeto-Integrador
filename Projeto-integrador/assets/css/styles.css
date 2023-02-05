@@ -19,24 +19,24 @@ button {
   outline: 0;
 }
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(47, 169, 179, 1) 31%,
-    rgba(47, 169, 179, 1) 46%,
-    rgba(6, 132, 152, 1) 78%
-  );
+  background: #0891c6;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 p {
   font-family: "Source Serif Pro", serif;
-  color: #fff;
+  color: #e2efdc;
   padding: 20px;
   text-align: left;
 }
 header {
   /* Topo da página. */
-  background: (rgba(12, 155, 157, 1) 100%);
-  box-shadow: 0px 3px 10px #04585e;
+  background: #0b4a8d;
+  box-shadow: 0px 19px 18px 23px rgba(0, 0, 0, 0.185);
+  border-radius: 5px;
 }
 
 .nav-bar {
@@ -56,6 +56,7 @@ header {
 .logo h1 {
   /* Texto da logo. */
   color: #fff;
+  text-shadow: 0 1px 0 #ccc;
 }
 
 .nav-list {
@@ -83,7 +84,6 @@ header {
   color: #fff;
   font-weight: 400;
   transition: 1s;
-  opacity: 80%;
   font-family: "Source Serif Pro", serif;
 }
 
@@ -91,7 +91,7 @@ header {
   /* :hover é a propriedade que diz se o mouse passou em cima do de algum item. */
   transition: 1s;
   opacity: 100%;
-  color: rgb(3, 54, 77);
+  color: #51aadf;
 }
 
 .mobile-menu-icon {
@@ -143,7 +143,6 @@ header {
     padding-top: 1.2rem;
     transition: 1s;
   }
-
   .open {
     display: block;
   }
@@ -152,6 +151,11 @@ header {
 .main-text {
   /* Texto principal da página. */
   text-align: center;
+  color: #003752;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .main-img {
@@ -165,10 +169,16 @@ header {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  border-radius: 50%;
-  opacity: 60%;
-  background-color: #58afb8;
-  border: #58afb8;
+  border-radius: 50px;
+  opacity: 50%;
+  background-color: #3e9da7;
+  border: #399da8;
+}
+
+#imgbotao:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
 #back-to-top:hover {
   /* :hover é a propriedade que diz se o mouse passou em cima do de algum item. */
@@ -181,4 +191,24 @@ header {
   /* Configura os cr[éditos da p[ágina */
   position: relative;
   text-align: center;
+}
+.title-1 {
+  font-size: 18px;
+  padding: 12px;
+}
+
+.embed {
+  padding-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.embed iframe {
+  border: none;
+}
+.video3 {
+  box-shadow: 0px 0px 19px 14px rgba(0, 0, 0, 0.292);
+  border-radius: 10px;
 }
