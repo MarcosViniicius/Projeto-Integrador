@@ -41,7 +41,7 @@ btn.click(function () {
   $("html, body").animate({ scrollTop: 0 }, "slow");
 });
 
-async function reference() {
+function reference() {
   vid = document.getElementById("video");
   vid.play();
   const video = document.querySelector("#video");
