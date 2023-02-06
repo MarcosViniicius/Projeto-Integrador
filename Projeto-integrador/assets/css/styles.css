@@ -39,6 +39,10 @@ header {
   border-radius: 5px;
 }
 
+#imgs {
+  width: 25%;
+  height: 25%;
+}
 .nav-bar {
   /* Barra de navegação que fica no topo da página. */
   display: flex;
@@ -216,7 +220,7 @@ header {
   position: relative;
   width: 100%;
   height: 100%;
-  right: 30%;
+  right: 35%;
 }
 .embed iframe {
   position: absolute;
