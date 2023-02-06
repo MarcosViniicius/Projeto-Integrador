@@ -123,7 +123,7 @@ header {
   }
 
   .nav-bar {
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 1rem;
   }
 
   .nav-item {
@@ -185,8 +185,8 @@ header {
   /* ícone que faz voltar para o início da página */
   transition: 1s;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 20px;
+  right: 10px;
   border-radius: 50px;
   opacity: 50%;
   background-color: #3e9da7;
