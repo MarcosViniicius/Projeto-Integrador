@@ -6,6 +6,21 @@
   font-family: "DINNextW1Gk";
   src: url("../fonts/665-font.otf");
 }
+
+#preloader {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999; /* z-index para jogar para frente e sobrepor tudo */
+}
+#preloader .inner {
+  position: absolute;
+  top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 * {
   /* Configurações padrões da página. */
   padding: 0;
